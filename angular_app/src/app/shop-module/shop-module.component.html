@@ -1,0 +1,45 @@
+<div class="my-container">
+  <br><br>
+<div class="main">
+<h3>Паштелки вже у Львові</h3>
+<img src="assets/img/paste_.jpg" alt="" class="logo">
+<h2>Оформити замовлення</h2>
+<p>Набір Standart -  6шт (130hrn)</p>
+<form [formGroup]="shopForm" (ngSubmit)="onSubmit(shopForm)">
+  <div class="form-group">
+    <label>Вкажіть кількість наборів:</label><br>
+<!--    <button type="button" (click)="decrement()" class="countButtons" style="color: orangered"><i class="fas fa-minus"></i></button>-->
+    <input class="form-control" style="width: 10%" formControlName="counterValue" [(ngModel)]="counterValue" >
+<!--    <button type="button" (click)="increment()" class="countButtons" style="color: dodgerblue"><i class="fas fa-plus"></i></button>-->
+  </div>
+  <div class="form-group">
+    <label>Вкажіть ваш телефон:</label><br>
+    <input type="text" formControlName="phone" class="form-control" placeholder="380960004509"><br>
+  </div>
+  <div class="form-group">
+    <label>Вкажіть вашe імя:</label><br>
+    <input type="text" formControlName="name" class="form-control" placeholder="Maria" ><br>
+  </div>
+  <div class="form-group">
+    <label>Вкажіть бажану дату доставки:</label><br>
+    <input type="text" formControlName="date" class="form-control" placeholder="05-03-2019"><br>
+  </div>
+  <div class="form-group">
+    <label>Коментар до замовлення</label><br>
+    <textarea placeholder="вкажіть будьласка адресу доставки" formControlName="notes" class="form-control"></textarea><br></div>
+  <div class="form-group">
+    <button type="submit"  id="submitButton"  data-toggle="modal" class="btn btn-success" >
+      ЗАМОВИТИ</button>
+  </div>
+</form>
+<h5>Режим роботи та обробка замовлення: пн-пт з 09:00 до 21.00</h5>
+<h5>Ми обовязково перезвонимо щоб підтвердити замовлення.</h5>
+</div>
+
+
+<div class="confirmModal" [ngClass]="{invisible: visibility}">
+  <h3>Ви замовляєте: {{counterValue}} комплекти</h3>
+  <button class="modalBtn" style="background-color: darkgreen" (click)="closeModal(); send()">ЗАМОВИТИ</button>
+  <button class="modalBtn" style="background-color: firebrick" (click)="closeModal()">ВІДМІНИТИ</button>
+</div>
+</div>

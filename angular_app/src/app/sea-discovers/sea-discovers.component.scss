@@ -1,0 +1,29 @@
+div{
+  border: 1px groove green;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.foto{
+  width: 40%;
+  height: 2%;
+  float: left;
+}
+.map{
+  width:60%;
+  height: 5%;
+}
+.my-container{
+  background-image: url("src/assets/img/2.png");
+  background-size: cover;
+}
+img{
+  //width:70%;
+  //height: 40%;
+  margin-left: 20%;
+  border-radius: 10px;
+}
+
+h2, h3, h4{
+  text-align: center;
+  font-family: "Bookman Old Style";
+}

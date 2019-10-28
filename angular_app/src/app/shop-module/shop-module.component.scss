@@ -1,0 +1,65 @@
+.logo {
+  width: auto;
+  height: 300px;
+}
+
+.form-control {
+  width: 33%;
+  margin: auto;
+}
+
+.main {
+  position: center;
+  text-align: center;
+  background-image: url('src/assets/img/background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+img {
+  width: 80%;
+  height: 50%;
+}
+
+span {
+  font-size: 30px;
+}
+
+.countButtons {
+  background: none;
+  height: 10%;
+  width: 10%;
+  margin: 0 2% 0 2%;
+  border-radius: 50%;
+  border: none;
+}
+
+.invisible {
+  display: none;
+}
+
+.confirmModal {
+  position: absolute;
+  text-align: center;
+  top: 120%;
+  left: 30%;
+  height: 30%;
+  width: 35%;
+  border: 3px solid orangered;
+  border-radius: 20px;
+  background-color: coral;
+  padding: 40px;
+}
+
+.modalBtn {
+  border-radius: 9px;
+  margin-left: 2%;
+  margin-top: 5%;
+  height: 35%;
+  width: 30%;
+  border: none;
+  font-size: 75%;
+  text-align: center;
+}

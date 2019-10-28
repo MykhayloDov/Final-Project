@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53f6a971-c3e7-43dd-a9d7-488cf0d2b883" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FINAL_PROJECT" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/angular_app" value="development" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/angular_app" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="ProjectId" id="1SAQHwup0Fe68k9detKfLJKDQW8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Users\misha\Desktop\PROJECT\angular_app\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/src/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/angular_app/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53f6a971-c3e7-43dd-a9d7-488cf0d2b883" name="Default Changelist" comment="" />
+      <created>1570994163317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570994163317</updated>
+      <workItem from="1570994165983" duration="1190000" />
+      <workItem from="1570996572201" duration="683000" />
+      <workItem from="1571003850787" duration="613000" />
+      <workItem from="1571048144694" duration="596000" />
+      <workItem from="1571130217168" duration="592000" />
+      <workItem from="1571174786443" duration="1903000" />
+      <workItem from="1571248290416" duration="288000" />
+      <workItem from="1571248856091" duration="131000" />
+      <workItem from="1571249145582" duration="9477000" />
+      <workItem from="1571262697660" duration="2091000" />
+      <workItem from="1571341075702" duration="7204000" />
+      <workItem from="1571370435742" duration="36780000" />
+      <workItem from="1571568549910" duration="23538000" />
+      <workItem from="1571598577597" duration="3012000" />
+      <workItem from="1571647803628" duration="27157000" />
+      <workItem from="1571707546498" duration="51489000" />
+      <workItem from="1571821339391" duration="24853000" />
+      <workItem from="1571897648444" duration="21240000" />
+      <workItem from="1571955062942" duration="6310000" />
+      <workItem from="1571985164547" duration="79838000" />
+      <workItem from="1572098065225" duration="1036000" />
+      <workItem from="1572121287532" duration="3582000" />
+      <workItem from="1572174578679" duration="1636000" />
+      <workItem from="1572192941227" duration="16466000" />
+      <workItem from="1572248476906" duration="3777000" />
+      <workItem from="1572255872952" duration="1289000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1571176955057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571176955057</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Components created">
+      <created>1571264525443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571264525443</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed &quot;georgraphy&quot; error">
+      <created>1571264744980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571264744980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Primary frontend built">
+      <created>1572001052776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1572001052776</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Backend created, some articles added and styling">
+      <created>1572049167803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1572049167803</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Backend created, some articles added and styling">
+      <created>1572072787881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1572072787881</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Components created" />
+    <MESSAGE value="Fixed &quot;georgraphy&quot; error" />
+    <MESSAGE value="Components structured" />
+    <MESSAGE value="Components filled" />
+    <MESSAGE value="Primary frontend built" />
+    <MESSAGE value="Backend created, some articles added and styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backend created, some articles added and styling" />
+  </component>
+</project>

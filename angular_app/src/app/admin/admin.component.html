@@ -1,0 +1,20 @@
+<div class="body">
+<br>
+<br>
+<h1 >ПРИВІТ АДМІН :)</h1>
+<button (click)="toogle()" style="margin-top: 40px" >Get Users</button>
+  <div class="usersList" [ngClass]="{invisible: visibility}">
+    <div class='box' *ngFor="let item of arr; let i = index">
+      <span>{{i+1}}) </span>
+      <span>{{item.name}}</span>
+      <br>
+      <span>{{item.email}}</span>
+      <br>
+      <span>{{item.phone}}</span>
+    </div>
+  </div>
+
+<button (click)="OnDestroy()">
+  Logout
+</button>
+</div>

@@ -1,0 +1,54 @@
+footer {
+  color: #fff;
+  background-attachment: fixed;
+  background-color: #11364f;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: space-around;
+}
+.about_us{
+  width: 100%;
+  margin-top: 5px;
+  font-size: 15px;
+}
+footer p {
+  color: #ccc;
+}
+#about{
+  width: 100%;
+  text-align: center;
+}
+footer a {
+  color: #ccc;
+}
+
+.f-address  {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+.f-address li i {
+  color: #2999de;
+  font-size: 20px;
+  padding: 0;
+}
+#contact{
+  width: 100%;
+  height: auto;
+}
+.f-address li a {
+  color: #ccc;
+}
+.row{
+  display: inline-flex;
+}
+/*=-Copyright-=*/
+.copyright {
+  background-color: #0d1a2c;
+  padding: 10px 50px;
+  text-align: center;
+  font-size:13px;
+}
+
