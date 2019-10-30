@@ -21,8 +21,8 @@ let  transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 587,
     auth: {
-        user: 'myk.nadia@gmail.com',
-        pass: 'VM83-a47'
+        user: 'mykhaylo.dov@gmail.com',
+        pass: '5150Mykas1989'
     }
 
 });
@@ -30,8 +30,8 @@ let  transporter = nodemailer.createTransport({
 app.post('/data', function (req, res) {
     users.push(req.body);
     const mailOptions = {
-        from: 'myk.nadia@gmail.com',
-        to: 'mykhaylo.dov@gmail.com',
+        from: 'mykhaylo.dov@gmail.com',
+        to: 'loza.andriy7@gmail.com',
         subject: 'Test message Pastelka',
         html: `<div style="color: black">
 <h3>Нове замовлення на Паштелки!</h3>

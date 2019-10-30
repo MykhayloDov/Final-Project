@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53f6a971-c3e7-43dd-a9d7-488cf0d2b883" name="Default Changelist" comment="" />
+    <list default="true" id="53f6a971-c3e7-43dd-a9d7-488cf0d2b883" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.ts" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,7 @@
         <entry key="$PROJECT_DIR$/angular_app" value="development" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/angular_app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1SAQHwup0Fe68k9detKfLJKDQW8" />
@@ -123,7 +127,9 @@
       <workItem from="1572174578679" duration="1636000" />
       <workItem from="1572192941227" duration="16466000" />
       <workItem from="1572248476906" duration="3777000" />
-      <workItem from="1572255872952" duration="1289000" />
+      <workItem from="1572255872952" duration="41797000" />
+      <workItem from="1572426994541" duration="2885000" />
+      <workItem from="1572465809274" duration="6635000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1571176955057</created>
@@ -186,7 +192,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myShow1" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <option name="LIMIT_HISTORY" value="false" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="2010" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Components created" />
     <MESSAGE value="Fixed &quot;georgraphy&quot; error" />
