@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53f6a971-c3e7-43dd-a9d7-488cf0d2b883" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.ts" afterDir="false" />
-    </list>
+    <list default="true" id="53f6a971-c3e7-43dd-a9d7-488cf0d2b883" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +125,7 @@
       <workItem from="1572248476906" duration="3777000" />
       <workItem from="1572255872952" duration="41797000" />
       <workItem from="1572426994541" duration="2885000" />
-      <workItem from="1572465809274" duration="6635000" />
+      <workItem from="1572465809274" duration="6937000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1571176955057</created>
@@ -173,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572072787881</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Deploy version">
+      <created>1572473027882</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1572473027883</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +209,7 @@
     <MESSAGE value="Components filled" />
     <MESSAGE value="Primary frontend built" />
     <MESSAGE value="Backend created, some articles added and styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backend created, some articles added and styling" />
+    <MESSAGE value="Deploy version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy version" />
   </component>
 </project>
