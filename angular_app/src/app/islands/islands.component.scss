@@ -1,6 +1,13 @@
 .my-container{
   background-image: url("src/assets/img/2.png");
   background-size: cover;
+  padding: 10% 10%;
+  border: 2px solid darkblue;
+}
+.main{
+  border: 2px solid darkblue;
+  border-radius: 8px;
+  padding: 2%;
 }
 img{
   width: 70%;

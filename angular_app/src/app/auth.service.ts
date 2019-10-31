@@ -2,24 +2,26 @@ import { Injectable } from '@angular/core';
 import { User } from './user';
 import {HttpClient} from '@angular/common/http';
 
+
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
-
+  currentUser: User;
   constructor(private http: HttpClient) {
   }
 
   public login(userInfo: User) {
-    localStorage.setItem('ACCESS_TOKEN', 'access_token');
+    const users: User[] = [];
+    localStorage.setItem('Admin', 'true');
   }
 
   public isLoggedIn() {
-    return localStorage.getItem('ACCESS_TOKEN') !== null;
+    return localStorage.getItem('Admin') !== null;
 
   }
 
   public logout() {
-    localStorage.removeItem('ACCESS_TOKEN');
+    localStorage.removeItem('Admin');
   }
 }

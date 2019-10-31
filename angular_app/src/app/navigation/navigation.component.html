@@ -1,76 +1,87 @@
-
 <nav class="navbar navbar-expand-md ">
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" routerLinkActive="active-route" routerLink="home"><i class="fa fa-home" style="color: aliceblue"></i><span class="sr-only">(current)</span></a>
+      <li class="nav-item active" [ngClass]="{buttons: disabled}">
+        <a class="nav-link" routerLinkActive="active-route" routerLink="home"><i class="fa fa-home"
+                                                                                 style="color: aliceblue"></i><span
+          class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item dropdown" >
-        <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <li class="nav-item dropdown" [ngClass]="{buttons: disabled}">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
           Iсторія
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
-          <li><a class="dropdown-item"  routerLink="history" routerLinkActive="active">Історія країни</a></li>
-          <li><a class="dropdown-item" routerLink="uniqueFacts" routerLinkActive="active">Цікаві і унікальні факти</a></li>
+          <li><a class="dropdown-item" routerLink="history" routerLinkActive="active">Історія країни</a></li>
+          <li><a class="dropdown-item" routerLink="uniqueFacts" routerLinkActive="active">Цікаві і унікальні факти</a>
+          </li>
           <li><a class="dropdown-item" routerLink="seaDiscovers" routerLinkActive="active">Морські відкриття</a></li>
         </ul>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle"    id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Географія
+      <li class="nav-item dropdown" [ngClass]="{buttons: disabled}">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
+          Географія
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
           <li><a class="dropdown-item" routerLink="climate" routerLinkActive="active">Клімат</a></li>
-          <li> <a class="dropdown-item" routerLink="uniquePlacement" routerLinkActive="active">Унікальність розміщення</a></li>
-            <li><a class="dropdown-item" routerLink="ocean" routerLinkActive="active">Океан</a></li>
-            <li><a class="dropdown-item" routerLink="islands" routerLinkActive="active">Острови- Азори та Мадейра</a></li>
-            </ul>
-          </li>
-      <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Гастрономія
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-              <li> <a class="dropdown-item" routerLink="gastronomyTradition" routerLinkActive="active">Традиції гастрономії</a></li>
-              <li> <a class="dropdown-item" routerLink="seaFoods" routerLinkActive="active">Багатство гастрономії</a></li>
-              <li> <a class="dropdown-item" routerLink="sweetMasterpiece" routerLinkActive="active">Солодкі шедеври</a></li>
-            </ul>
-          </li>
-      <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Сьогодення
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
-              <li> <a class="dropdown-item" routerLink="news" routerLinkActive="active">Новини</a></li>
-              <li> <a class="dropdown-item" routerLink="people" routerLinkActive="active">Португальці</a></li>
-              <li><a class="dropdown-item" routerLink="prices" routerLinkActive="active">Ціни</a></li>
-            </ul>
-          </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li><a class="dropdown-item" routerLink="uniquePlacement" routerLinkActive="active">Унікальність
+            розміщення</a></li>
+          <li><a class="dropdown-item" routerLink="ocean" routerLinkActive="active">Океан</a></li>
+          <li><a class="dropdown-item" routerLink="islands" routerLinkActive="active">Острови- Азори та Мадейра</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown" [ngClass]="{buttons: disabled}">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
+          Гастрономія
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+          <li><a class="dropdown-item" routerLink="gastronomyTradition" routerLinkActive="active">Традиції
+            гастрономії</a></li>
+          <li><a class="dropdown-item" routerLink="seaFoods" routerLinkActive="active">Багатство гастрономії</a></li>
+          <li><a class="dropdown-item" routerLink="sweetMasterpiece" routerLinkActive="active">Солодкі шедеври</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown" [ngClass]="{buttons: disabled}">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink5" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
+          Сьогодення
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
+          <li><a class="dropdown-item" routerLink="news" routerLinkActive="active">Новини</a></li>
+          <li><a class="dropdown-item" routerLink="people" routerLinkActive="active">Португальці</a></li>
+          <li><a class="dropdown-item" routerLink="prices" routerLinkActive="active">Ціни</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown" [ngClass]="{buttons: disabled}">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
           Туризм
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li><a class="dropdown-item" routerLink="howToGo" routerLinkActive="active">Як поїхати</a></li>
           <li><a class="dropdown-item" routerLink="whenToGo" routerLinkActive="active">Коли їхати</a></li>
           <li><a class="dropdown-item" routerLink="whenToStay" routerLinkActive="active">Де зупинитись</a></li>
-          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" > Що відвідати</a>
+          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle"> Що відвідати</a>
             <ul class="dropdown-menu">
-              <li>  <a class="dropdown-item" routerLink="beach" routerLinkActive="active">Пляж</a></li>
-              <li> <a class="dropdown-item" routerLink="castlesPalaces" routerLinkActive="active">Замки і палаци</a></li>
-              <li> <a class="dropdown-item" routerLink="museums" routerLinkActive="active">Музеї</a></li>
-              <li><a class="dropdown-item" routerLink="arqueology" routerLinkActive="active">Археологічна спадщина</a></li>
-              <li><a class="dropdown-item" routerLink="underground" routerLinkActive="active">Підземні скарби Португалії</a></li>
+              <li><a class="dropdown-item" routerLink="beach" routerLinkActive="active">Пляж</a></li>
+              <li><a class="dropdown-item" routerLink="castlesPalaces" routerLinkActive="active">Замки і палаци</a></li>
+              <li><a class="dropdown-item" routerLink="museums" routerLinkActive="active">Музеї</a></li>
+              <li><a class="dropdown-item" routerLink="arqueology" routerLinkActive="active">Археологічна спадщина</a>
+              </li>
+              <li><a class="dropdown-item" routerLink="underground" routerLinkActive="active">Підземні скарби
+                Португалії</a></li>
             </ul>
           </li>
         </ul>
       </li>
-      <li class="nav-item ">
+      <li class="nav-item" [ngClass]="{buttons: disabled}">
         <a class="nav-link" routerLinkActive="active-route" routerLink="shopModule">
-         Паштелки</a>
+          Паштелки</a>
       </li>
-      <li class="nav-item ">
-        <a class="nav-link" routerLinkActive="active-route" routerLink="login">LogIn</a>
+      <li class="nav-item" [ngClass]="{buttons: disabled}">
+        <a class="nav-link" routerLinkActive="active-route" routerLink="admin">Адмін</a>
       </li>
     </ul>
   </div>

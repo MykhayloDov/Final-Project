@@ -7,7 +7,7 @@ import {AuthService} from '../auth.service';
   templateUrl: './admin.component.html',
   styleUrls: ['./admin.component.scss']
 })
-export class AdminComponent implements OnDestroy {
+export class AdminComponent {
   public header = 'UserList example';
   public arr: string[] = [];
   visibility = true;
@@ -33,7 +33,7 @@ export class AdminComponent implements OnDestroy {
     this.router.navigateByUrl('/home');
   }
 
-  ngOnDestroy() {
-    this.logout();
-  }
+  // ngOnDestroy() {
+  //   this.logout();
+  // }
 }
